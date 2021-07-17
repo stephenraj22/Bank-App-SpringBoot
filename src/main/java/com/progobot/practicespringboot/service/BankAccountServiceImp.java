@@ -13,6 +13,7 @@ import com.progobot.practicespringboot.responsetemplate.TransactionResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.sql.Date;
 import java.sql.Timestamp;
 import java.text.ParseException;
@@ -30,6 +31,7 @@ public class BankAccountServiceImp implements BankAccountService{
     @Autowired
     private TransactionService transactionService;
     @Override
+    @Transactional
     public BankAccountResponse saveBankAccount(BankAccount bankAccount, float initialDeposit) throws ParseException, BalanceException {
         float balance = 0;
         if(bankAccount.getAccountType().equals("current")){
@@ -94,7 +96,7 @@ public class BankAccountServiceImp implements BankAccountService{
         float newBalance, oldBalance, balance = 0;
         BankAccount bankAccount = bankAccountRepository.getById(accountNumber);
         dob = new Date(bankAccount.getDob().getTime());
-        if(accountStatementForm.getFrom().equals("")){
+        if(accountStatementForm.getFrom()==null){
             fromDate = Date.valueOf(bankAccount.getCreatedAt().toLocalDateTime().toLocalDate());
         }else {
             fromDate = Date.valueOf(accountStatementForm.getFrom());

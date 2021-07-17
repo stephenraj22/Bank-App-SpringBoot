@@ -66,3 +66,7 @@ Update a bank account /accounts/48BankAccountForm{accountNumber=null, accountTyp
 Update a bank account /accounts/4200BankAccountForm{accountNumber=null, accountType='current', holderName='CelshiyaJA', dob='1999-05-24', transactionFee=0.0, initialDeposit=0.0, createdAt=2021-07-16 17:47:48.0594768, updatedAt=2021-07-16 17:47:48.0594768}
 Update a bank account /accounts/48BankAccountForm{accountNumber=null, accountType='current', holderName='CelshiyaJA', dob='1999-05-24', transactionFee=0.0, initialDeposit=0.0, createdAt=2021-07-16 17:47:53.3396087, updatedAt=2021-07-16 17:47:53.3396087}
 Bank account statement /account/statement/47AccountStatementForm{from='', to='2021-07-16'}
+Bank account statement /account/statement/47AccountStatementForm{from='2021-07-15', to='2021-07-16'}
+Bank account statement /account/statement/47AccountStatementForm{from='2021-07-15', to='2021-07-16'}
+Bank account statement /account/statement/47AccountStatementForm{from='null', to='2021-07-16'}
+Bank account statement /account/statement/47AccountStatementForm{from='null', to='2021-07-16'}

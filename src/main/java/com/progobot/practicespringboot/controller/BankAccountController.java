@@ -91,7 +91,8 @@ public class BankAccountController {
 
     @PostMapping("/accounts/statement/{accountNumber}")
     public StatementResponse getStatement(@PathVariable("accountNumber") Long accountNumber,
-                                          @Valid @RequestBody AccountStatementForm accountStatementForm){
+                                          @RequestParam(value = "from",required = false) String from, @RequestParam("to") String to){
+        AccountStatementForm accountStatementForm = new AccountStatementForm(from,to);
         LOGGER.info("Bank account statement /account/statement/"+accountNumber+accountStatementForm.toString());
 
         return bankAccountService.getAccountStatement(accountStatementForm, accountNumber);
