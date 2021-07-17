@@ -1,0 +1,68 @@
+
+Save a bank accountBankAccountForm{accountNumber=null, accountType='current', holderName='Celshiya', dob='1999-05-22', transactionFee=0.0, initialDeposit=1000.0, createdAt=2021-07-16 12:06:44.5628385, updatedAt=2021-07-16 12:06:44.5628385}
+Transaction /transaction/35TransactionForm{amount=100.0, type='withdrawal'}
+Get a bank account request:/accounts/10
+Update a bank account /accounts/1BankAccountForm{accountNumber=null, accountType='savings', holderName='Celshiya', dob='1999-05-24', transactionFee=0.0, initialDeposit=0.0, createdAt=2021-07-16 12:07:12.656279, updatedAt=2021-07-16 12:07:12.656279}
+Bank account statement /account/statement/1AccountStatementForm{from='2021-07-15', to='2021-07-16'}
+Get a bank account request:/accounts/35
+Bank account statement /account/statement/1AccountStatementForm{from='2021-07-15', to='2021-07-16'}
+Save a bank accountBankAccountForm{accountNumber=null, accountType='current', holderName='Celshiya', dob='1999-05-22', transactionFee=0.0, initialDeposit=1000.0, createdAt=2021-07-16 13:31:22.2412914, updatedAt=2021-07-16 13:31:22.2412914}
+Save a bank accountBankAccountForm{accountNumber=null, accountType='savings', holderName='Celshiya', dob='1999-05-22', transactionFee=0.0, initialDeposit=1000.0, createdAt=2021-07-16 13:31:38.7792794, updatedAt=2021-07-16 13:31:38.7792794}
+Transaction /transaction/35TransactionForm{amount=100.0, type='withdrawal'}
+Transaction /transaction/35TransactionForm{amount=100.0, type='deposit'}
+Get a bank account request:/accounts/35
+Update a bank account /accounts/1BankAccountForm{accountNumber=null, accountType='savings', holderName='CelshiyaJA', dob='1999-05-24', transactionFee=0.0, initialDeposit=0.0, createdAt=2021-07-16 13:34:40.9919936, updatedAt=2021-07-16 13:34:40.9919936}
+Bank account statement /account/statement/1AccountStatementForm{from='2021-07-15', to='2021-07-16'}
+Transaction /transaction/35TransactionForm{amount=10000.0, type='withdrawal'}
+Bank account statement /account/statement/1AccountStatementForm{from='2020-07-15', to='2020-07-16'}
+Bank account statement /account/statement/1AccountStatementForm{from='', to='2020-07-16'}
+Bank account statement /account/statement/1AccountStatementForm{from='', to='2021-07-16'}
+Transaction /transaction/35TransactionForm{amount=100.0, type='withdrawal'}
+Transaction /transaction/35TransactionForm{amount=100.0, type='deposit'}
+Transaction /transaction/35TransactionForm{amount=100.0, type='withdrawal'}
+Transaction /transaction/35TransactionForm{amount=100.0, type='deposit'}
+Save a bank accountBankAccountForm{accountNumber=null, accountType='current', holderName='Celshiya', dob='1999-05-22', transactionFee=0.0, initialDeposit=1000.0, createdAt=2021-07-16 14:13:58.9993814, updatedAt=2021-07-16 14:13:58.9993814}
+Transaction /transaction/42TransactionForm{amount=100.0, type='deposit'}
+Transaction /transaction/42TransactionForm{amount=100.0, type='withdrawal'}
+Save a bank accountBankAccountForm{accountNumber=null, accountType='current', holderName='Celshiya', dob='1999-05-22', transactionFee=0.0, initialDeposit=1000.0, createdAt=2021-07-16 14:16:10.6780501, updatedAt=2021-07-16 14:16:10.6780501}
+Save a bank accountBankAccountForm{accountNumber=null, accountType='savings', holderName='Celshiya', dob='1999-05-22', transactionFee=0.0, initialDeposit=1000.0, createdAt=2021-07-16 14:16:47.6709414, updatedAt=2021-07-16 14:16:47.6709414}
+Update a bank account /accounts/44BankAccountForm{accountNumber=null, accountType='current', holderName='CelshiyaJA', dob='1999-05-24', transactionFee=0.0, initialDeposit=0.0, createdAt=2021-07-16 14:17:05.3319502, updatedAt=2021-07-16 14:17:05.3319502}
+Bank account statement /account/statement/45AccountStatementForm{from='', to='2021-07-16'}
+Bank account statement /account/statement/44AccountStatementForm{from='', to='2021-07-16'}
+Transaction /transaction/42TransactionForm{amount=100.0, type='withdrawal'}
+Transaction /transaction/44TransactionForm{amount=100.0, type='withdrawal'}
+Transaction /transaction/44TransactionForm{amount=100.0, type='deposit'}
+Transaction /transaction/44TransactionForm{amount=100.0, type='deposit'}
+Transaction /transaction/44TransactionForm{amount=100.0, type='withdrawal'}
+Transaction /transaction/44TransactionForm{amount=100.0, type='withdrawal'}
+Transaction /transaction/44TransactionForm{amount=100.0, type='deposit'}
+Bank account statement /account/statement/44AccountStatementForm{from='', to='2021-07-16'}
+Transaction /transaction/44TransactionForm{amount=100.0, type='deposit'}
+Bank account statement /account/statement/44AccountStatementForm{from='', to='2021-07-16'}
+Save a bank accountBankAccountForm{accountNumber=null, accountType='savings', holderName='Celshiya', dob='1999-05-22', transactionFee=0.0, initialDeposit=1000.0, createdAt=2021-07-16 14:32:09.9392195, updatedAt=2021-07-16 14:32:09.9392195}
+Update a bank account /accounts/45BankAccountForm{accountNumber=null, accountType='current', holderName='CelshiyaJA', dob='1999-05-24', transactionFee=0.0, initialDeposit=0.0, createdAt=2021-07-16 14:32:18.614408, updatedAt=2021-07-16 14:32:18.614408}
+Bank account statement /account/statement/45AccountStatementForm{from='', to='2021-07-16'}
+Get a bank account request:/accounts/45
+Transaction /transaction/44TransactionForm{amount=100.0, type='deposit'}
+Transaction /transaction/45TransactionForm{amount=100.0, type='deposit'}
+Save a bank accountBankAccountForm{accountNumber=null, accountType='savings', holderName='Celshiya', dob='1999-05-22', transactionFee=0.0, initialDeposit=1000.0, createdAt=2021-07-16 14:35:48.358875, updatedAt=2021-07-16 14:35:48.358875}
+Update a bank account /accounts/46BankAccountForm{accountNumber=null, accountType='current', holderName='CelshiyaJA', dob='1999-05-24', transactionFee=0.0, initialDeposit=0.0, createdAt=2021-07-16 14:35:57.8051672, updatedAt=2021-07-16 14:35:57.8051672}
+Bank account statement /account/statement/45AccountStatementForm{from='', to='2021-07-16'}
+Bank account statement /account/statement/46AccountStatementForm{from='', to='2021-07-16'}
+Transaction /transaction/46TransactionForm{amount=100.0, type='deposit'}
+Save a bank accountBankAccountForm{accountNumber=null, accountType='current', holderName='Celshiya', dob='1999-05-22', transactionFee=0.0, initialDeposit=1000.0, createdAt=2021-07-16 14:37:52.8496505, updatedAt=2021-07-16 14:37:52.8496505}
+Bank account statement /account/statement/47AccountStatementForm{from='', to='2021-07-16'}
+Transaction /transaction/47TransactionForm{amount=100.0, type='deposit'}
+Transaction /transaction/47TransactionForm{amount=100.0, type='withdrawal'}
+Bank account statement /account/statement/47AccountStatementForm{from='', to='2021-07-16'}
+Bank account statement /account/statement/47AccountStatementForm{from='', to='2021-07-16'}
+Save a bank accountBankAccountForm{accountNumber=null, accountType='current', holderName='Celshiya', dob='1999-05-22', transactionFee=0.0, initialDeposit=1000.0, createdAt=2021-07-16 17:46:10.53012, updatedAt=2021-07-16 17:46:10.53012}
+Transaction /transaction/47TransactionForm{amount=100.0, type='withdrawal'}
+Transaction /transaction/48TransactionForm{amount=100.0, type='withdrawal'}
+Transaction /transaction/48TransactionForm{amount=100.0, type='deposit'}
+Update a bank account /accounts/46BankAccountForm{accountNumber=null, accountType='currnt', holderName='CelshiyaJA', dob='1999-05-24', transactionFee=0.0, initialDeposit=0.0, createdAt=2021-07-16 17:47:14.3143633, updatedAt=2021-07-16 17:47:14.3143633}
+Update a bank account /accounts/46BankAccountForm{accountNumber=null, accountType='current', holderName='Celshiya', dob='1999-05-24', transactionFee=0.0, initialDeposit=0.0, createdAt=2021-07-16 17:47:30.755641, updatedAt=2021-07-16 17:47:30.755641}
+Update a bank account /accounts/48BankAccountForm{accountNumber=null, accountType='current', holderName='CelshiyaJA', dob='1999-05-24', transactionFee=0.0, initialDeposit=0.0, createdAt=2021-07-16 17:47:42.4132379, updatedAt=2021-07-16 17:47:42.4132379}
+Update a bank account /accounts/4200BankAccountForm{accountNumber=null, accountType='current', holderName='CelshiyaJA', dob='1999-05-24', transactionFee=0.0, initialDeposit=0.0, createdAt=2021-07-16 17:47:48.0594768, updatedAt=2021-07-16 17:47:48.0594768}
+Update a bank account /accounts/48BankAccountForm{accountNumber=null, accountType='current', holderName='CelshiyaJA', dob='1999-05-24', transactionFee=0.0, initialDeposit=0.0, createdAt=2021-07-16 17:47:53.3396087, updatedAt=2021-07-16 17:47:53.3396087}
+Bank account statement /account/statement/47AccountStatementForm{from='', to='2021-07-16'}
